@@ -52,6 +52,8 @@ button{
     margin-bottom:86px;
     margin-right:140.99px;
 }
+
+/* all-player-card-section */
 .all-player-card-section{
     display: flex;
     justify-content: center;
@@ -88,4 +90,30 @@ button{
 .player-info > p{
     padding:15px;
     margin-bottom:15px;
+}
+
+/* footer */
+footer{
+    display:grid;
+    grid-template-rows:repeat(3, 1fr);
+    justify-content: center;
+}
+.football-logo{
+    width: 483.87px;
+    height: 110px;
+}
+.icon-positioning{
+    padding-left: 120px;
+}
+.icon-font{
+    font-size:35px;
+    margin: 15px;
+    margin-top: 20px;
+}
+.copyright-positioning{
+    padding-left: 143px;
+}
+.copyright{
+    font-size:18px;
+    height: 31px;
 }

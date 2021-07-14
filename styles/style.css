@@ -1,1 +1,91 @@
 /* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* utilities */
+body{
+    margin:0%;
+    padding:0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* banner-top */
+.top-section{
+    background-color:#2D25A0;
+    Width:1440px;
+    Height:677px;
+}
+.top-section-width{
+    display:flex;
+}
+h1{
+    font-size:64px;
+    color:white;
+    margin-top: 207px;
+    margin-left: 156px;
+    margin-bottom: 27px;
+    margin-right:102px;
+}
+.problem-solved{
+    margin-right: 15px;
+}
+button{
+    background-color:#E02C6D;
+    color:white;
+    border:none;
+    /* paddin */
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:24px;
+    padding-right:24px;
+    /* margin */
+    margin-bottom:169px;
+    margin-left:156px;
+}
+.fa-arrow-right{
+    color:white;
+    margin-left:10px;
+}
+.top-section-img > img{
+    width: 556.01px;
+    height: 438px;
+    margin-top:153px;
+    margin-bottom:86px;
+    margin-right:140.99px;
+}
+.all-player-card-section{
+    display: flex;
+    justify-content: center;
+    margin-top:70px;
+    margin-bottom:20px;
+}
+.all-player-card{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player-card{
+    width:330px;
+    height: 474px;
+    background-color:white;
+    box-shadow: rgba(116, 116, 116, 0.52) 2px 2px 10px;
+    margin:30px;
+}
+.player-img > img{
+    width:300px;
+    height:260px;
+    margin:15px;
+}
+.player-name{
+    color: black;
+    font-size: 27px;
+    padding-left:15px;
+    padding-right:0px;
+    margin:0%;
+}
+.player-info{
+    padding-left:15px;
+    padding-right:15px;
+}
+.player-info > p{
+    padding:15px;
+    margin-bottom:15px;
+}

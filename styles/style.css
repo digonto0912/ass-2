@@ -92,6 +92,25 @@ button{
     margin-bottom:15px;
 }
 
+/* live-Board */
+.live-board{
+    Width:903px;
+    Height:392px;
+    margin-Top:10px;
+    background-color:blue;
+}
+.live-board-center{
+    display: grid;
+    justify-content: center;
+}
+.team-img{
+    display: flex;
+    height: 228px;
+}
+.team-img > img{
+    width: 50%;
+}
+
 /* footer */
 footer{
     display:grid;

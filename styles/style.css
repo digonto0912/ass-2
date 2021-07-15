@@ -41,6 +41,10 @@ button{
     margin-bottom:169px;
     margin-left:156px;
 }
+button:hover{
+    background-color: #b4b1dd;
+    box-shadow: #E02C6D -2px -2px 50px;
+}
 .fa-arrow-right{
     color:white;
     margin-left:10px;
@@ -93,7 +97,7 @@ button{
 }
 
 /* live-Board */
-h1{
+.live-board-section > h1{
     font-size:90px;
     color: rgb(51, 51, 51);
     margin:0;
@@ -163,4 +167,137 @@ footer{
 .copyright{
     font-size:18px;
     height: 31px;
+}
+
+
+/* @media queary */
+/* Tab */
+@media only screen and (max-width:688px) and (min-width:992){
+    body{
+        background-color:red;
+    }
+}
+
+
+
+/* mobile */
+@media only screen and (max-width:688px) {
+    
+    .top-section{
+        background-color:#2D25A0;
+        Width:360px;
+        Height:695px;
+    }
+    .top-section-width{
+        display:inline-block
+    }
+    h1{
+    font-size:36px;
+    margin-top: 112px;
+    margin-left: 16px;
+    margin-bottom: 30px;
+    margin-right:66px;
+    }
+    .problem-solved{
+        margin-right: 5px;
+    }
+    button{
+        /* margin */
+        margin-bottom:50px;
+        margin-left:19px;
+    }
+    .top-section-img > img{
+        width: 329px;
+        height: 259.17px;
+        /* margin */
+        margin-top:0px;
+        margin-left:15px;
+        margin-bottom:61.83px;
+        margin-right:16px;
+        /* padding */
+        padding: 0px;
+    }
+
+    /* all-player-card-section */
+
+    .all-player-card-section{
+        margin-top:23px;
+        margin-bottom:60px;
+    }
+    .all-player-card{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    }
+    .player-card{
+        margin-left:15px;
+        margin-right:24px;
+    }
+
+    /* live-Board */
+    .live-board-section > h1{
+    font-size:50px;
+    margin:0;
+    margin-left:10px;
+    }
+    .live-board-center{
+    display: grid;
+    justify-content: center;
+    }
+.live-board{
+    Width:350px;
+    Height:240px;
+    background-color:none;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.team-img{
+    height: 60%;
+}
+.logo{
+    position: absolute;
+    margin-top:100px;
+}
+.logo > img{
+    width: 150px;
+    height: 100px;
+}
+.logo-2{
+    position: absolute;
+    margin-top:100px;
+    margin-left:225px;
+}
+.logo-2 > img{
+    width: 110px;
+    height: 100px;
+}
+.goal{
+    font-size:50px;
+}
+
+/* footer */
+footer{
+    display: grid;
+    justify-content: center;
+}
+.football-logo{
+    width: 250px;
+    height: 70px;
+}
+.icon-positioning{
+    padding-left: 20px;
+}
+.icon-font{
+    font-size:20px;
+    margin: 15px;
+    margin-top: 14px;
+    margin-bottom:20px;
+}
+.copyright-positioning{
+    padding-left: 30px;
+}
+.copyright{
+    font-size:16px;
+    height: 31px;
+}
+
 }

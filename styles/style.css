@@ -171,16 +171,46 @@ footer{
 
 
 /* @media queary */
-/* Tab */
-@media only screen and (max-width:688px) and (min-width:992){
-    body{
-        background-color:red;
+
+/* 689X992 */
+
+@media only screen and (max-width:992px) and (min-width:689px){
+
+    /* all-player-card-section */
+
+    .all-player-card{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 750px;
     }
+
+    /* live-Board */
+.live-board-center{
+    display: grid;
+    align-items: center;
+    margin-left: 725px;
+}
+
+    /* footer */
+footer{
+    display:grid;
+    grid-template-rows:repeat(3, 1fr);
+    margin-left: 680px;
+}
+.icon-positioning{
+    padding-left: 120px;
+}
+.copyright-positioning{
+    padding-left: 143px;
+}
+
 }
 
 
 
-/* mobile */
+/* phone */
+/* Moto G4 */
+
 @media only screen and (max-width:688px) {
     
     .top-section{
